@@ -1,0 +1,10 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.vertical-center {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

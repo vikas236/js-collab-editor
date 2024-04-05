@@ -4,6 +4,108 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Collab Editor</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.css"
+    />
   </head>
-  <body></body>
+  <body>
+    <div class="signup container-fluid">
+      <div class="row vertical-center">
+        <form class="col-lg-4 col-md-5 col-sm-8 shadow p-5 rounded-4">
+          <h1 class="mb-4">Sign Up</h1>
+          <p>
+            First Name
+            <input
+              class="form-control mt-1"
+              type="text"
+              placeholder="First Name"
+              required
+              autofocus
+            />
+          </p>
+          <p>
+            Last Name
+            <input
+              class="form-control mt-1"
+              type="email"
+              placeholder="Email Address"
+              required
+              autofocus
+            />
+          </p>
+          <p>
+            Email
+            <input
+              class="form-control mt-1"
+              type="email"
+              placeholder="Email Address"
+              required
+              autofocus
+            />
+          </p>
+          <p>
+            Password
+            <input
+              class="form-control mt-1"
+              type="email"
+              placeholder="Password"
+              required
+            />
+          </p>
+          <p class="checkbox">
+            <label
+              ><input type="checkbox" class="me-2 ms-1" />Remember Me</label
+            >
+          </p>
+          <button class="btn btn-primary btn-block w-100" type="sumbit">
+            Sign In
+          </button>
+        </form>
+      </div>
+    </div>
+    <div class="login container-fluid">
+      <div class="row vertical-center">
+        <form class="col-lg-4 col-md-5 col-sm-8 shadow p-5 rounded-4">
+          <h1 class="mb-4">Sign In</h1>
+          <p>
+            Email
+            <input
+              class="form-control mt-1"
+              type="email"
+              placeholder="Email Address"
+              required
+              autofocus
+            />
+          </p>
+          <p>
+            Password
+            <input
+              class="form-control mt-1"
+              type="email"
+              placeholder="Password"
+              required
+            />
+          </p>
+          <p class="checkbox">
+            <label
+              ><input type="checkbox" class="me-2 ms-1" />Remember Me</label
+            >
+          </p>
+          <button class="btn btn-primary btn-block w-100" type="sumbit">
+            Sign In
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+  </body>
 </html>
